@@ -1,0 +1,57 @@
+.container {
+	background-color: peachpuff;
+	position: relative;
+	display: block;
+}
+.outer-shell {
+	height: 30em;
+	color: black;
+	width: 70%;
+	margin:3% 0% 0% 35%;
+	display: inline-block;
+}
+.inner-shell {
+	height: 20em;
+	background-color: #333;
+	width: 78%;
+	position:relative;
+}
+.clock-screen {
+	height: 7em;
+	background-color: white;
+	width: 60%;
+	margin: 20% 0% 0% 20%;
+	display: inline-block;
+	position: absolute:
+}
+
+#clock-text {
+	color: red;
+	background-color: salmon;
+	font-size: 1.5em;
+	height: 1.5em;
+	width: 25%;
+	margin: 9% 0% 0% 15%;
+	position:absolute;
+	
+}
+.leftLabels {
+	float: left;
+	color: green;
+}
+.bottom-am-label {
+	display: inline-block;
+	color: white;
+	background-color: black;
+	height: 2em;
+	width: 60.5%;
+	margin: 0% 0% 0% 19.65%;
+}
+.bottom-pm-label {
+	display: inline-block;
+	color: white;
+	background-color: black;
+	height: 2em;
+	width: 60.5%;
+	margin: 0% 0% 0% 19.65%;
+}
