@@ -4,7 +4,7 @@ $(document).on('ready', function() {
 // Outer Shell (dark gray)
 var outerShell = $('<div class="outer-shell"></div>');
 var innerShell = $('<div class="inner-shell"></div>');
-var leftLabels = $('<div class="left-labels"><p>"AM\nAuto"</p></div>');
+var leftLabels = $('<div class="left-labels"><p>AM</p> <p>Auto</p></div>');
 var clockScreen =$('<div class="clock-screen"></div>');
 var clockIndicator =$('<div class="clock-indicator"></div>');
 var clockText = $('<div id="clock-text"></div>');
@@ -20,7 +20,7 @@ var bottomPMLabel =$('<div class="bottom-pm-label"><p>PM 88 92 96 102</p></div>'
 $('.container').append(outerShell);
 $(outerShell).append(innerShell);
 $(innerShell).append(clockScreen);
-$(clockScreen).append(leftLabels).text("PM\nAuto");
+$(clockScreen).append(leftLabels);
 
 var clockTimer = setInterval(function() {myClock()}, 1000);
   function myClock() {
